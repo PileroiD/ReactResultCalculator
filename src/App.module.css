@@ -1,0 +1,38 @@
+.app {
+  text-align: center;
+}
+
+.appHeader {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.btnNumber, .actionItem {
+  margin: 0 5px;
+}
+
+.btnWrapper, .actionsWrapper {
+  display: flex;
+}
+
+.actionsWrapper {
+  margin-top: 20px;
+}
+
+.screen, .screenGreen {
+  width: 200px;
+  height: 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.screenGreen {
+  color: lightgreen;
+}
